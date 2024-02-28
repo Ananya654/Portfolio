@@ -1,0 +1,310 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.top{
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+p{
+  font-family: 'Nunito', sans-serif;
+}
+
+h2{
+  font-family: 'Nunito', sans-serif;
+  font-size: 33px;
+  font-weight: normal;
+  color: #088395;
+}
+
+h3{
+  font-family: 'Nunito', sans-serif;
+  color: #449a9a;
+  font-weight: 600;
+}
+
+hr{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 5%;
+  border: 10px dotted #EAF6F6;
+  border-bottom: none;
+}
+.pro{
+  text-decoration: underline;
+}
+.into{
+  width: 30%;
+  margin: auto;
+}
+
+header{
+  display: inline-grid;
+  color: #66BFBF;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+header span{
+  text-decoration: underline;
+}
+
+header h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 60px;
+  color: #66BFBF;
+}
+
+.imgs-header{
+  
+  display: flex;
+  justify-content: center;
+}
+
+.img-cloud{
+
+  width: 10%;
+  height: 10%;
+  margin-right: 20px;
+}
+
+.img-cloud-with-sun{
+  width: 10%;
+  height: 10%;
+  margin-left: 20px;
+}
+
+/* about me section */
+
+.about-me{
+  margin-top: 40px;
+}
+
+.img-about-me{
+  border-radius: 50%;
+}
+
+
+/* my skills section */
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.skill-row img{
+  width: 25%;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+
+/* contact-me section */
+
+.contact-me h3{
+  margin-top: 20px;
+}
+
+.contact-me p{
+  margin-top: 40px;
+  
+}
+
+.contact-me button{
+  margin-top: 40px;
+  background-color: #66BFBF;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.btn{
+  margin-top: 40px;
+  border-radius: 8px;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+.contact-me button:hover{
+  background-color: #184041;
+}
+
+a{
+  text-decoration:none;
+}
+
+
+.container {
+  background-color: #EED3D9;
+  border-top-left-radius: 37px 140px;
+  border-top-right-radius: 23px 130px;
+  border-bottom-left-radius: 110px 19px;
+  border-bottom-right-radius: 120px 24px;
+
+  display: block;
+  position: relative;
+  border: solid 3px #6e7491;
+  padding: 40px 60px;
+  max-width: 800px;
+  width: 70%;
+  margin: 100px auto 0;
+  font-size: 17px;
+  line-height: 28px;
+  transform: rotate(-1deg);
+  box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+  transition: all 0.13s ease-in;
+}
+
+.container:hover {
+  transform: translateY(-10px) rotate(1deg);
+  box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+}
+
+.container:hover .border {
+  transform: translateY(4px) rotate(-5deg);
+}
+
+.border {
+  position: absolute;
+  transition: all 0.13s ease-in;
+}
+
+.border:before,
+.border:after {
+  color: #515d9c;
+  font-size: 15px;
+  position: absolute;
+}
+
+.tl {
+  position: absolute;
+  left: -50px;
+  top: -63px;
+  font-weight: 600;
+}
+
+.tl:before {
+  content: "37px";
+  left: 120px;
+  top: 30px;
+}
+
+.tl:after {
+  content: "140px";
+  left: 0px;
+  top: 80px;
+}
+
+.tr {
+  right: -50px;
+  top: -63px;
+  font-weight: 600;
+}
+
+.tr:before {
+  content: "23px";
+  left: 0;
+  top: 30px;
+}
+
+.tr:after {
+  content: "130px";
+  left: 130px;
+  top: 80px;
+}
+
+.bl {
+  left: -50px;
+  bottom: -71px;
+  font-weight: 600;
+}
+
+.bl:before {
+  content: "110px";
+  left: 120px;
+  top: -30px;
+}
+
+.bl:after {
+  content: "19px";
+  left: 0px;
+  top: -90px;
+}
+
+.br {
+  right: -50px;
+  bottom: -63px;
+  font-weight: 600;
+}
+
+.br:before {
+  content: "120px";
+  left: 0;
+  top: -30px;
+}
+
+.br:after {
+  content: "24px";
+  right: -10px;
+  top: -80px;
+}
+
+pre {
+  background: #edeff5;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+footer{
+  margin-top: 60px;
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+footer a{
+  color: #0f393a;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+
+footer p{
+  margin: 25px 0 15px;
+  color: #EAF6F6;
+  font-size: 12px;
+}
